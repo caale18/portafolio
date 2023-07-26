@@ -14,8 +14,8 @@
   .wrapper {
     width: 100vw;
     height: 100vh;
-    background-color: #191c32;
-    color: #fff;
+    background-color: #28272f;
+    color: #cacda1;
   }
 
 .navbar {
@@ -29,7 +29,7 @@
 }
 
 .brand span{
-    color: aqua;
+    color: #9ba423;
 
 }
 
@@ -44,18 +44,18 @@
 }
 
 .menu a {
-    color: #fff;
+    color: #cacda1;
     text-decoration: none;
     padding: 10px 20px;
 }
 
 .menu .active {
-    color: aqua;
+    color: #9ba423;
 }
 
 .menu a:hover {
-background-color: aqua;
-color: #191c32;
+background-color: #9ba423;
+color: #28272f;
 transition: ease-in .4s;
 }
 
@@ -73,17 +73,17 @@ h1 {
 }
 
 span {
-    color: aqua;
+    color: #9ba423;
 }
 
 .download-cv {
     padding: 10px 20px;
-    background-color: aqua;
+    background-color: #9ba423;
     border: none;
     border-radius: 20px;
     margin-top: 10px;
     cursor: pointer;
-    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+    box-shadow: 1px 3px 11px -5px rgba(28, 116, 42, 0.69);
 }
 
 .download-cv:hover {
@@ -93,7 +93,29 @@ span {
 
 .main img {
     width: 350px;
-    border: 7px solid aqua;
+    border: 7px solid #9ba423;
     height: 550px;
-    
 }
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.about img {
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.about-info {
+    grid-column: 5/10;
+    padding: 3em;
+}
+
+.about-info h2 {
+    font-size: 2em;
+    color: #28272f;
+}
+
