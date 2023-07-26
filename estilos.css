@@ -111,7 +111,7 @@ span {
 
 .about-info {
     grid-column: 5/10;
-    padding: 3em;
+    padding: 2em;
 }
 
 .about-info h2 {
@@ -119,3 +119,14 @@ span {
     color: #28272f;
 }
 
+.divider {
+    height: 4px;
+    width: 60px;
+    background-color: #9ba423;
+    margin-top: 5px;
+    margin-bottom: 2em;
+}
+
+.about p {
+    margin-bottom: 1em;
+}
